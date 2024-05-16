@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" 5. LFU Caching
+""" a module containing a class that
+implements LFU Caching operations
 """
 
 from enum import Enum
@@ -20,7 +21,7 @@ class LFUCache(BaseCaching):
     """ LFUCache """
 
     def __init__(self):
-        """ Init
+        """ Initialize
         """
         super().__init__()
         self.heap = []
