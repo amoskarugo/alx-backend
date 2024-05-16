@@ -18,7 +18,9 @@ class HeapItemStatus(Enum):
 
 
 class LFUCache(BaseCaching):
-    """ LFUCache """
+    """
+    LFUCache operation implementation
+    """
 
     def __init__(self):
         """ Initialize
