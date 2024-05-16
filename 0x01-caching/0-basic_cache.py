@@ -3,8 +3,7 @@
 module containing a class for performing
 cache operations.
 """
-
-from BaseCaching import BaseCaching
+from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
@@ -12,7 +11,7 @@ class BasicCache(BaseCaching):
     a class that implements some cache operations
     """
     def __init__(self):
-        """initialize"""
+        """method initialize the instance"""
         super().__init__()
 
     def put(self, key, item):
